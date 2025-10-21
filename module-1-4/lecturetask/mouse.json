@@ -1,0 +1,7 @@
+{
+  "id": 101,
+  "name": "Wireless Mouse",
+  "price": 249.99,
+  "categories": ["electronics", "accessories"],
+  "inStock": true
+}

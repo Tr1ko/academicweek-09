@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Product",
+  "type": "object",
+  "properties": {
+    "id":       { "type": "integer" },
+    "name":     { "type": "string", "minLength": 1 },
+    "price":    { "type": "number", "minimum": 0 },
+    "categories": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "inStock":  { "type": "boolean" }
+  },
+  "required": ["id", "name", "price"]
+}
